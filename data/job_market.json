@@ -1,4 +1,47 @@
 {
- "snapshots": [],
+ "snapshots": [
+  {
+   "date": "2026-11-18",
+   "n": 577,
+   "posted_from": "2026-10-22",
+   "posted_to": "2026-11-18",
+   "skills": {
+    "AWS": 49,
+    "Algorithms": 18,
+    "CI/CD": 53,
+    "Cloud Computing": 62,
+    "Computer Networks": 2,
+    "Cybersecurity": 17,
+    "Data Engineering": 39,
+    "Data Structures": 7,
+    "Deep Learning": 28,
+    "Docker": 32,
+    "Generative AI": 32,
+    "Git": 57,
+    "JavaScript": 21,
+    "Kubernetes": 44,
+    "LLMs": 43,
+    "Linux": 26,
+    "MLOps": 6,
+    "Machine Learning": 83,
+    "Microservices": 12,
+    "MongoDB": 11,
+    "Node.js": 12,
+    "Operating Systems": 9,
+    "PostgreSQL": 22,
+    "Power BI": 14,
+    "Python": 91,
+    "REST APIs": 10,
+    "React": 23,
+    "SQL": 59,
+    "Tableau": 14,
+    "TypeScript": 21
+   },
+   "sources": {
+    "arbeitnow": 561,
+    "remotive": 16
+   }
+  }
+ ],
  "version": 1
 }

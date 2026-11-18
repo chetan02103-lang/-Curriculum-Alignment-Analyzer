@@ -1,0 +1,36 @@
+name: Update job-market data
+
+# Runs once a day (06:15 UTC) and can be started by hand from the Actions tab.
+# One request per source per day keeps us well inside Remotive's "max 4 fetches a day" rule.
+on:
+  schedule:
+    - cron: "15 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install pandas
+      - name: Fetch job postings and append a snapshot
+        run: python update_data.py
+      - name: Commit the updated data file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/job_market.json
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore: update job-market data $(date -u +%F)"
+          git push

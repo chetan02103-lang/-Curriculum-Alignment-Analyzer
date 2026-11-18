@@ -1,0 +1,11 @@
+BCS501 Software Engineering
+Agile, Git, CI/CD pipelines, REST APIs
+
+BAI405 Machine Learning
+Python, neural networks, scikit-learn, SQL
+
+BCS515 Cloud Computing
+AWS, Docker, Kubernetes, Linux
+
+BCS502 Computer Networks
+Network security, cryptography

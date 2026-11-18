@@ -7,7 +7,7 @@ A Streamlit app that connects what students learn in college with what companies
 ## 🌐 Live demo
 
 - 👉 **Clickable preview:** [Open the preview](https://claude.ai/artifact/94W8VrLNaSUQ2G8cRcbidp) (browser version of all six modules; no live news or job data, no PDF reading of reports)
-- 👉 **Full Streamlit app:** _paste your Streamlit Community Cloud link here after deploying_
+- 👉 **Full Streamlit app:** https://curriculum-alignment-analyzer.streamlit.app
 
 ## 🧩 The six modules
 

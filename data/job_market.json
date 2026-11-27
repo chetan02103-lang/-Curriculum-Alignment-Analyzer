@@ -377,6 +377,48 @@
     "arbeitnow": 576,
     "remotive": 15
    }
+  },
+  {
+   "date": "2026-11-27",
+   "n": 486,
+   "posted_from": "2026-10-27",
+   "posted_to": "2026-11-27",
+   "skills": {
+    "AWS": 31,
+    "Algorithms": 8,
+    "CI/CD": 50,
+    "Cloud Computing": 46,
+    "Computer Networks": 3,
+    "Cybersecurity": 24,
+    "Data Engineering": 29,
+    "Data Structures": 0,
+    "Deep Learning": 7,
+    "Docker": 20,
+    "Generative AI": 24,
+    "Git": 49,
+    "JavaScript": 17,
+    "Kubernetes": 35,
+    "LLMs": 29,
+    "Linux": 28,
+    "MLOps": 8,
+    "Machine Learning": 33,
+    "Microservices": 9,
+    "MongoDB": 10,
+    "Node.js": 8,
+    "Operating Systems": 12,
+    "PostgreSQL": 14,
+    "Power BI": 10,
+    "Python": 74,
+    "REST APIs": 14,
+    "React": 21,
+    "SQL": 49,
+    "Tableau": 7,
+    "TypeScript": 27
+   },
+   "sources": {
+    "arbeitnow": 470,
+    "remotive": 16
+   }
   }
  ],
  "version": 1
